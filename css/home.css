@@ -1,3 +1,6 @@
+.main{
+    background-color: #F9F9F9;
+}
 .row2 li:not(:last-child){
     padding: 5px 15px;
     float: left;
@@ -12,4 +15,35 @@
 .row2 li:not(:last-child) a{
     text-decoration: none;
     color: black;
+}
+
+.row3-add{
+    background-color: white;
+    height: 60vh;
+    position: relative;
+    top: 50%;
+    transform:translateY(-65%);
+}
+.row3-add table{
+    border-collapse: collapse;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.row3-add table td{
+    padding: 2px 15px;
+}
+.row3-add table .right{
+    padding: 0 15px 0 75px;
+}
+.row3-add table input,select{
+    height: 30px;
+    width: 300px;
+    border: 1px solid black;
+
+}
+#btn{
+    cursor: pointer;
 }
