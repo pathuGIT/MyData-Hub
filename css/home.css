@@ -1,0 +1,15 @@
+.row2 li:not(:last-child){
+    padding: 5px 15px;
+    float: left;
+    font-size: 18px;
+    margin: 0 0 0 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.row2 li:not(:last-child):hover{
+    font-weight: normal;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.171), 0 6px 20px 0 rgba(0, 0, 0, 0.014);
+}
+.row2 li:not(:last-child) a{
+    text-decoration: none;
+    color: black;
+}

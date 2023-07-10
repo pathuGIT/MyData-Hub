@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/copy.css">
     <script src="js/code.jquery.com_jquery-3.7.0.min.js"></script>
     <title>Document</title>
 </head>
@@ -39,21 +39,25 @@
                 <div class="img">
                     <img id="img1" src="img/logo.png" alt="logo">
                 </div>
-                <div class="form" action="" method="POST">
+                <div class="last">
+
+                
+                <form class="form" action="inc/directToHome.php" method="POST">
                     <h4>ADMIN LOGIN</h4>
                     <table>
                         <tr>
                             <td>User Name</td>
-                            <td><input type="text" id="name"></td>
+                            <td><input type="text" name="name" id="name"></td>
                         </tr>
                         <tr>
                             <td>Password</td>
-                            <td><input type="password" id="pswd"></td>
+                            <td><input type="password" name="pswd" id="pswd"></td>
                         </tr>
                         <tr>
-                            <td colspan="2"><input type="submit" value="LOGIN"></td>
+                            <td colspan="2"><input type="submit" value="LOGIN" onclick="func()"></td>
                         </tr>
                     </table>
+                </form>
                 </div>
             </div>
         </div>
