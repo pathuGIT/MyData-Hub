@@ -16,13 +16,14 @@
     text-decoration: none;
     color: black;
 }
-
 .row3-add{
+    height: 80vh;
+}
+.form2{
     background-color: white;
     height: 60vh;
-    position: relative;
     top: 50%;
-    transform:translateY(-65%);
+    transform:translateY(15%);
 }
 .row3-add table{
     border-collapse: collapse;
@@ -30,7 +31,7 @@
     position: relative;
     top: 50%;
     left: 50%;
-    transform: translateX(-50%) translateY(-50%);
+    transform:translateY(-50%) translateX(-50%);
 }
 .row3-add table td{
     padding: 2px 15px;

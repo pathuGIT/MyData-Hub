@@ -2,7 +2,7 @@
 <?php require_once('../inc/connect.php')?>
 
 <div class="row3-add">
-    <form action="../inc/addDataToDatabase.php" method="post"></form>
+    <form class="form2"action="../inc/addDataToDatabase.php" method="post">
     <table border=0>
         <tr>
             <td>Enter Index Number: </td>
@@ -42,4 +42,5 @@
             <td><input type="email" name="email" id=""></td>
         </tr>
     </table>
+    </form>
 </div>
