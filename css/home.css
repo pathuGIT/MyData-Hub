@@ -48,3 +48,39 @@
 #btn{
     cursor: pointer;
 }
+
+.row3-show{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: scroll;
+    height: 70vh;
+    margin: 50px 0 0 0;
+    padding: 0 50px;
+}
+.row3-show table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.row3-show table th, td{
+    text-align: left;
+    padding: 8px;
+    cursor: pointer;
+}
+.row3-show table td a{
+    text-decoration: none;   
+}
+.row3-show table td #u{
+    color: green;
+}
+.row3-show table td #d{
+    color: red;
+}
+.row3-show table tr:nth-child(even){background-color: #f2f2f2}
+  
+.row3-show table th {
+    background-color: #0393be;
+    color: white;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 10px 15px;
+}
