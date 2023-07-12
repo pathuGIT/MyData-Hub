@@ -32,7 +32,7 @@ if($result){
         $table .= '<td>'.$record['email'].'</td>';
         $table .= '<td>'.$record['bank'].'</td>';
         $table .= '<td>'.$record['account'].'</td>';
-        $table .= '<td><a id="u" href="../inc/update.php?index='.$record['indexNo'].'">Update</a></td>';
+        $table .= '<td><a id="u" href="../home/update.php?index='.$record['indexNo'].'">Update</a></td>';
         $table .= '<td><a id="d" href="../inc/delete.php?index='.$record['indexNo'].'">Delete</a></td>';
         $table .= '</tr>';
     }
