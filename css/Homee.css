@@ -49,11 +49,26 @@
     cursor: pointer;
 }
 
+.form-search{
+    margin: 30px 0 0 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.form-search input{
+    border: none;
+    border-bottom: 1px solid rgb(148, 148, 148);
+    outline:none;
+    margin: 0 10px;
+    padding: 4px;
+}
+.form-search input::placeholder{
+    outline: none;
+    padding: 5px;
+}
 .row3-show{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     overflow: scroll;
-    height: 70vh;
-    margin: 50px 0 0 0;
+    height: 65vh;
+    margin: 20px 0 0 0;
     padding: 0 50px;
 }
 .row3-show table{
@@ -84,3 +99,4 @@
     top: 0;
     padding: 10px 15px;
 }
+a

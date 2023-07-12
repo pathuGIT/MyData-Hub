@@ -25,7 +25,7 @@
         </tr>
         <tr>
             <td>Birth Day: </td>
-            <td><input type="date" name="birthdate" id="" value="2001-01-08"></td>
+            <td><input type="date" name="birthdate" id="" value="0000-00-00"></td>
         </tr>
         <tr>
             <td>City: </td>

@@ -2,10 +2,20 @@
 require_once('../inc/header.php');
 require_once('../inc/connect.php');
 ?>
-<?php
 
-$query = "SELECT * FROM data";
-$result = mysqli_query($conn,$query);
+<?php
+error_reporting(0);
+$search = $_GET['search'];
+
+$query_search = "SELECT * FROM data WHERE indexNO = $search";
+$query_normal = "SELECT * FROM data";
+
+if(isset($search)){
+    $result = mysqli_query($conn,$query_search);
+}else{
+    $result = mysqli_query($conn,$query_normal);
+}
+
 
 if($result){
 
@@ -30,12 +40,14 @@ if($result){
 }else{
     echo"error";
 }
-
-mysqli_close($conn);
 ?>
+<form class="form-search" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+    <label>Search</label><input type="text" name="search" placeholder="1044">
+</form>
 
 <div class="row3-show">
     <?php echo $table;  ?>
 </div>
 
 
+<?php mysqli_close($conn); ?>
