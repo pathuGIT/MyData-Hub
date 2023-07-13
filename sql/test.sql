@@ -12,3 +12,4 @@ update data set indexNO = 1236 where account = 0;
 update data set email="kamal@ka.com",account = 12458 where indexNO = 1236;
 delete from data where indexNO = 1214;
 select * from data where account > 5000;
+select * from data where birthday >'2023-07-00' and birthday < '2023-07-30';
