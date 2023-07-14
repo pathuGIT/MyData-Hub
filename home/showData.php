@@ -20,7 +20,7 @@ if(isset($search)){
 if($result){
 
     $table = '<table border=0 class="show-table">';
-    $table .= '<tr><th>Index No</th> <th>Name</th> <th>Birth Date</th> <th>City</th> <th>Contact</th> <th>Email</th>  <th>Bank Name</th> <th>Account Nu</th> <th colspan="2">Option</th></tr>';
+    $table .= '<tr><th id="index">Index_No</th> <th id="name">Name</th> <th id="day">Birth_Date</th> <th>City</th> <th>Contact</th> <th>Email</th>  <th>Bank_Name</th> <th>Account_No</th> <th colspan="2">Option</th></tr>';
 
     while($record = mysqli_fetch_assoc($result)){
         $table .= '<tr>';

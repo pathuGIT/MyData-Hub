@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/copy.css">
+    <link rel="stylesheet" href="css/index.css">
     <script src="js/code.jquery.com_jquery-3.7.0.min.js"></script>
     <title>Document</title>
 </head>
@@ -27,7 +27,7 @@
             <li id="home">HOME</li>
         </div>
         <div class="row3">
-            <div class="col1">
+            <div class="col1 same">
                 <div>
                     <h3>MyData hub is data collection peoject.</h3>
                     <p>MyData Hub is a data collection project I created for my studies, focused on PHP, SQL, JS, jQuery, CSS, and HTML. It serves as a centralized hub for efficient data management, allowing users to input and store data easily. Through this project, I aim to enhance my knowledge and skills in web development technologies.</p>
@@ -35,7 +35,7 @@
                 </div>
                 
             </div>
-            <div class="col2">
+            <div class="col2 same">
                 <div class="img">
                     <img id="img1" src="img/logo.png" alt="logo">
                 </div>

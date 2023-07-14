@@ -1,0 +1,321 @@
+.main{
+    background-color: #F9F9F9;
+}
+.row2 li:not(:last-child){
+    padding: 5px 15px;
+    float: left;
+    font-size: 18px;
+    margin: 0 0 0 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.row2 li:not(:last-child):hover{
+    font-weight: normal;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.171), 0 6px 20px 0 rgba(0, 0, 0, 0.014);
+}
+.row2 li:not(:last-child) a{
+    text-decoration: none;
+    color: black;
+}
+.row2 li div {
+    width: 30px;
+    height: 5px;
+    background-color: black;
+    margin: 4px 0;
+}
+#icon{
+    display: none;
+}
+
+@media only screen and (max-width: 700px){
+    .row2 li:not(:last-child){
+        float: none;
+        display: block;
+    }
+    .row2 li:last-child{
+        float: none;
+        padding: 5px 15px;
+        font-size: 18px;
+        margin: 0 0 30px 20px;
+        color: red;
+    }
+    #icon{
+        display: block;
+        padding-bottom: 10px;
+    }
+    .row2 li:not(:last-child):hover{
+        font-weight: normal;
+        box-shadow: none;
+    }
+}
+#table2{
+    display: none;
+}
+#table1{
+    display: block;
+}
+.row3-add{
+    height: 80vh;
+}
+.form2{
+    background-color: white;
+    height: 60vh;
+    top: 50%;
+    transform:translateY(15%);
+}
+#table1{
+    border-collapse: collapse;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform:translateY(-50%) translateX(-50%);
+    display: inline-flex;
+    /* align-items: center;
+    justify-content: center; */
+}
+.row3-add table td{
+    padding: 2px 15px;
+}
+.row3-add table .right{
+    padding: 0 15px 0 75px;
+}
+.row3-add table input,select{
+    height: 30px;
+    width: 300px;
+    border: 1px solid black;
+
+}
+#btn{
+    cursor: pointer;
+}
+
+.form-search{
+    margin: 30px 0 0 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.form-search input{
+    border: none;
+    border-bottom: 1px solid rgb(148, 148, 148);
+    outline:none;
+    margin: 0 10px;
+    padding: 4px;
+}
+.form-search input::placeholder{
+    outline: none;
+    padding: 5px;
+}
+.row3-show{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: scroll;
+    height: 65vh;
+    margin: 20px 0 0 0;
+    padding: 0 50px;
+}
+.row3-show table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.row3-show table th, td{
+    text-align: left;
+    padding: 8px;
+    cursor: pointer;
+}
+.row3-show table td a{
+    text-decoration: none;   
+}
+.row3-show table td #u{
+    color: green;
+}
+.row3-show table td #d{
+    color: red;
+}
+.row3-show table tr:nth-child(even){background-color: #f2f2f2}
+  
+.row3-show table th {
+    background-color: #0393be;
+    color: white;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 10px 15px;
+}
+.mainHome{
+    width: 100%;
+    height: 82vh;
+}
+.mainHome div{
+    float: left;
+}
+.mainHome .box1{
+    width: 35%;
+    height: 100%;
+    background: rgb(249,249,249);
+    background: linear-gradient(148deg, rgba(249,249,249,1) 0%, rgba(252,251,251,1) 41%, rgba(255,255,255,1) 100%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.171), 0 6px 20px 0 rgba(0, 0, 0, 0.014);
+}
+.mainHome .box1 canvas{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.mainHome .box2{
+    width: 65%;
+    height: 100%;
+}
+.mainHome .box2 .raw1{
+    width: 100%;
+    height: 40%;
+    background: rgb(3,126,136);
+    background: linear-gradient(148deg, rgba(3,126,136,1) 0%, rgba(6,182,162,1) 41%, rgba(0,212,255,1) 100%);
+}
+.raw1 .line{
+    border: 1px solid rgba(255, 0, 0, 0);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.raw1 .line div{
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+.raw1 .line div:hover{
+   
+    margin: 0 0 3px 0px;
+}
+
+.raw1 .line div:not(:first-child){
+    margin-left: 100px;
+}
+.raw1 .line div h3{
+    font-size: 5vw;
+    font-weight: 500;
+}
+.raw1 .line div p{
+    font-size: 2vh;
+}
+.raw1 .line div .p{
+    width: 40px;
+    padding: 3px;
+    margin: 8px 0 0 0;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#o1{
+    background-color: goldenrod;
+}
+#o2{
+    background-color: rgb(241, 14, 101);
+}
+#o3{
+    background-color: rgb(170, 2, 38);
+}
+.raw2{
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 50px 0 0 50px;
+}
+.raw2 p:last-child{
+    width: 50%;
+    margin-top: 20px;
+}
+@media only screen and (max-width: 950px){
+    .mainHome div{
+        float: none;
+    }
+    .mainHome .box2{
+        width: 100%;
+    }
+    .mainHome .box1{
+        width: 100%;
+    }
+    .mainHome .box1 canvas{
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translateY(-50%) translateX(-50%);
+    }
+    #table1{
+        display: none;
+    }
+    #table2{
+        display: block;
+    }
+    #table2,tr,td{
+        border: 1px solid rgb(206, 206, 206);
+    }
+    .row3-add {
+    }
+    .row3-add table{
+        display: inline-block;
+        border-collapse: collapse;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position: none;
+        top:0;
+        left: 0;
+        transform:translateY(0%) translateX(0%);
+    }
+    .form2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #index,#name,#day{
+        padding: 0 50px;
+    }
+}
+@media only screen and (max-width: 700px){
+    .raw1 .line{
+        width: 100%;
+        display: block;
+        justify-content:left;
+        align-items: normal;
+    }
+    .raw1 .line div:not(:first-child){
+        margin-left: 0;
+    }
+    .raw1 .line div .p{
+        width: 100%;
+        padding: 1px;
+        margin: 8px 30px 0  0;
+        display: none;
+    }
+    .raw1 .line div p{
+        font-size: 3vh;
+    }
+    .raw1 .line div h3{
+        float: left;
+        padding-right: 20px;
+    }
+    .raw1 .line div{
+        text-align: left;
+        padding: 5px 0 0 0  ;
+        padding-left: 50px;
+    }
+    .mainHome .box2 .raw1{
+        height: 60%;
+    }
+    .raw2{
+        height: 700px;
+        background-color: #f2f2f2;
+    }
+    .raw2 p:last-child{
+        width: 70%;
+        margin-top: 20px;
+    }
+    .mainHome .box1{
+        margin-top: 100px;
+    }
+    .row3-add table tr td:first-child{
+        width: 100px;
+    }
+    .row3-add table input,select{
+        width: 200px;
+    }
+}
