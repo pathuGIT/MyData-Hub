@@ -2,7 +2,8 @@
 
 Welcome to MyData-Hub, a basic PHP project designed to serve as a simple yet powerful data center for storing valuable information and making important decisions.
 
-![MyData-Hub Preview] ![Capture](https://github.com/pathuGIT/MyData-Hub/assets/92371888/b2ea0816-4d93-4a61-82fb-e91f2354885a)
+![MyData-Hub Preview] ![Capture](https://github.com/pathuGIT/MyData-Hub/assets/92371888/7d78817b-92ae-4a18-b133-c2ffb86a3169)
+
 
 
 
@@ -18,10 +19,11 @@ Welcome to MyData-Hub, a basic PHP project designed to serve as a simple yet pow
 
 ## Screenshots
 
-![Capture-1](https://github.com/pathuGIT/MyData-Hub/assets/92371888/626c9bd7-d364-46d3-99eb-752d2a2391bb)
-![Capture-3](https://github.com/pathuGIT/MyData-Hub/assets/92371888/f55ea639-1eaf-456d-9501-94a5c3662730)
-![Capture-4](https://github.com/pathuGIT/MyData-Hub/assets/92371888/25248da5-bae8-462d-bf64-2a315be86ab7)
-![Capture-5](https://github.com/pathuGIT/MyData-Hub/assets/92371888/f70bcf82-8717-4b63-b3b1-e626d34e96cd)
+![Capture-1](https://github.com/pathuGIT/MyData-Hub/assets/92371888/e1edc34a-1a5e-4361-9b2b-ada89879efe2)
+![Capture-3](https://github.com/pathuGIT/MyData-Hub/assets/92371888/eff6797f-d18a-4981-b33e-343bef5a47ad)
+![Capture-4](https://github.com/pathuGIT/MyData-Hub/assets/92371888/eb9260c6-f087-419e-b3db-41bae3ba3596)
+![Capture-5](https://github.com/pathuGIT/MyData-Hub/assets/92371888/a090f98b-231a-43ed-af69-42db6a72b753)
+
 
 ## Live Demo
 
